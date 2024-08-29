@@ -1,2 +1,35 @@
 /* CSS Document */
-
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 2000px;
+    background-color: #205a39;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fbfbfb;
+}
+.navbar a {
+    display: block;
+    float: left;
+    color: #184329;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar a:hover {
+    background-color: #171616;
+    color: #ecf0f1;
+}
+.active-link {
+    background-color: #747171;
+    color: rgb(10, 10, 10);
+}
+.footer {padding: 20px; background-color: #fbfbfb;}
